@@ -24,9 +24,9 @@ class FooProvider extends ServiceProvider
     public function boot()
     {
         //
-       $this->publishes(__DIR__ . '/../Http/Controllers/FooController.php'=>app_path('Http/Controllers/FooController.php'));
+       $this->publishes([__DIR__ . '/../Http/Controllers/FooController.php'=>app_path('Http/Controllers/FooController.php')]);
        $this->loadRoutesFrom(__DIR__ . '/../routes/web.php');
-       
+
     }
 
 }
