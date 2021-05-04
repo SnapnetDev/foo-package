@@ -9,6 +9,6 @@ class FooController extends Controller
     //
 
     function getFoo(){
-        return 'Get Foo ...';
+        return 'Get Foo ...123';
     }
 }

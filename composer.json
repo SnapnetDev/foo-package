@@ -46,7 +46,7 @@
     },
     "extra": {
         "laravel": {
-            "providers":["FooProvider"]
+            "providers":["App\\Providers\\FooProvider"]
         }
     },
     "config": {
