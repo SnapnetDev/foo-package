@@ -1,5 +1,5 @@
 {
-    "name": "SnapnetDev/foo-package",
+    "name": "snapnetdev/foo-package",
     "type": "project",
     "description": "The Laravel Framework.",
     "keywords": ["framework", "laravel"],
