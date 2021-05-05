@@ -25,7 +25,8 @@ class FooProvider extends ServiceProvider
     {
         //
        $this->publishes([__DIR__ . '/../Http/Controllers/FooController.php'=>app_path('Http/Controllers/FooController.php')]);
-       $this->loadRoutesFrom(__DIR__ . '/../../routes');
+        $this->publishes([__DIR__ . '/../../routes/web.php'=> base_path('routes/vendor-routes/web-foo.php')]);
+//       $this->loadRoutesFrom(__DIR__ . '/../../routes');
 
     }
 
